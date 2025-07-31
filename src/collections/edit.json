@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Love Live Leave",
+		"image": "/assets/images/projects/lll.webp",
+		"url": "https://www.youtube.com/watch?v=Bq75IZg-lkQ&pp=0gcJCccJAYcqIYzv"
+	},
+	{
+		"name": "Lovedheegam",
+		"image": "/assets/images/projects/love.jpg",
+		"url": "https://www.youtube.com/watch?v=6qYr-5NvEeM"
+	},
+	{
+		"name": "Night Duty",
+		"image": "/assets/images/projects/night.webp",
+		"url": "https://www.youtube.com/watch?v=Q86fGBq23w0"
+	},
+	{
+		"name": "Ex Lover",
+		"image": "/assets/images/projects/exlover.jpg",
+		"url": "https://www.youtube.com/watch?v=0l5I2B9cA4Q"
+	},
+	{
+		"name": "Kai Kavarnthatru",
+		"image": "/assets/images/projects/kk.webp",
+		"url": "https://www.youtube.com/watch?v=D3_WgKK5fI0"
+	}
+]

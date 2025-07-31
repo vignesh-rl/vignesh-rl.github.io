@@ -1,0 +1,76 @@
+---
+import projects from "../collections/projects.json";
+import PageHeading from "../components/page-heading.astro";
+import Project from "../components/project.astro";
+import Edit from "../collections/edit.json";
+import screenplays from "../collections/screenplay.json";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Projects">
+  <section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Directed Projects"
+      description="Explore a curated selection of projects I have directed, each reflecting my creative vision, leadership, and commitment to excellence in filmmaking."
+    />
+
+    <div
+      class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+      {
+        projects.map((project) => {
+          return (
+            <Project
+              name={project.name}
+              image={project.image}
+              url={project.url}
+            />
+          );
+        })
+      }
+    </div>
+  </section><section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Video Projects"
+      description="Discover a diverse range of video projects that highlight my technical skills, storytelling abilities, and passion for visual media."
+    />
+
+    <div
+      class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+      {
+        Edit.map((Edit) => {
+          return (
+            <Project
+              name={Edit.name}
+              image={Edit.image}
+              url={Edit.url}
+            />
+          );
+        })
+      }
+    </div>
+  </section>
+  <section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Screenplays Written"
+      description="Browse through original screenplays I have written, showcasing my dedication to narrative craft and innovative storytelling."
+    />
+
+    <div
+      class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+      {
+        screenplays.map((ScreenPlay) => {
+          return (
+            <Project
+              name={ScreenPlay.name}
+              image={ScreenPlay.image}
+              url={ScreenPlay.url}
+            />
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>

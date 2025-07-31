@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Marukka Sollu",
+		"image": "/assets/images/projects/kadathal.webp",
+		"url": "https://www.youtube.com/watch?v=lM4-th4Ld-4"
+	},
+	{
+		"name": "Kuch Kuch Hota Hai",
+		"image": "/assets/images/projects/kuchkuch2.webp",
+		"url": "https://www.youtube.com/watch?v=GvNYXvNpeFo"
+	},
+	{
+		"name": "Veeranuku Vibuthi Aditha Tharanum",
+		"image": "/assets/images/projects/veeran.webp",
+		"url": "https://www.youtube.com/watch?v=6R_m83Qyhqo"
+	},
+	{
+		"name": "Ooram Po",
+		"image": "/assets/images/projects/oorampo.webp",
+		"url": "https://www.youtube.com/watch?v=onSMTRySAWg"
+	},
+	{
+		"name": "Toxic Girlfriend",
+		"image": "/assets/images/projects/toxic.webp",
+		"url": "https://www.youtube.com/watch?v=N6gfQivGttw"
+	},
+	{
+		"name": "Pitha",
+		"image": "/assets/images/projects/pitha.webp",
+		"url": "https://www.youtube.com/watch?v=vYRg6c14tOc&t=246s"
+	},
+	{
+		"name": "Pugaiyum Naanum",
+		"image": "/assets/images/projects/smoking.webp",
+		"url": "https://www.youtube.com/watch?v=QjPZ0eNpNPE&t=40s&pp=0gcJCccJAYcqIYzv"
+	},
+	{
+		"name": "Kavitha EEE",
+		"image": "/assets/images/projects/electrician.webp",
+		"url": "https://www.youtube.com/watch?v=l9CmIJcXPOQ&t=1s"
+	}
+]
