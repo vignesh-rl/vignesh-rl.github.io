@@ -1,4 +1,9 @@
 [
+  {
+		"name": "Pugazh Weds Jeni - Part 1 | Single shot",
+		"image": "/assets/images/projects/PugazhJeni1.jpg",
+		"url": "https://www.youtube.com/watch?v=M4OmJW3yqIo"
+	},
 	{
 		"name": "Marukka Sollu",
 		"image": "/assets/images/projects/kadathal.webp",
@@ -23,10 +28,5 @@
 		"name": "Toxic Girlfriend",
 		"image": "/assets/images/projects/toxic.webp",
 		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "Pitha",
-		"image": "/assets/images/projects/pitha.webp",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
 	}
 ]
