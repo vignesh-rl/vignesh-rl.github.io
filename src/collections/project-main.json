@@ -4,6 +4,11 @@
 		"image": "/assets/images/projects/PugazhJeni1.jpg",
 		"url": "https://www.youtube.com/watch?v=M4OmJW3yqIo"
 	},
+  {
+		"name": "Kuch Kuch Hota Hai - Part 1",
+		"image": "/assets/images/projects/KuchKuch1.jpg",
+		"url": "https://youtu.be/gZEVBlzjwLA?si=u_zz9IOikNqXN5hF"
+	},
 	{
 		"name": "Marukka Sollu",
 		"image": "/assets/images/projects/kadathal.webp",
@@ -23,10 +28,5 @@
 		"name": "Ooram Po",
 		"image": "/assets/images/projects/oorampo.webp",
 		"url": "https://sink.cool"
-	},
-	{
-		"name": "Toxic Girlfriend",
-		"image": "/assets/images/projects/toxic.webp",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
 	}
 ]
