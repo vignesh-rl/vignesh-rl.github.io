@@ -5,6 +5,7 @@ import Project from "../components/project.astro";
 import Edit from "../collections/edit.json";
 import screenplays from "../collections/screenplay.json";
 import instagram from "../collections/Instagram.json";
+import featureFilm from "../collections/FeatureFilm.json";
 import Layout from "../layouts/main.astro";
 ---
 
@@ -47,6 +48,27 @@ import Layout from "../layouts/main.astro";
                 name={insta.name}
                 image={insta.image}
                 url={insta.url}
+              />
+            );
+          })
+        }
+      </div>
+    </section>
+<section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
+      <PageHeading
+        title="Assistant Director - Feature Film"
+        description="Contributed to the direction and execution of a feature film, supporting creative vision, coordinating production activities, and ensuring smooth on-set operations."
+      />
+  
+      <div
+        class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+      >
+        {
+          featureFilm.map((ff) => {
+            return (
+              <Project
+                name={ff.name}
+                image={ff.image}
               />
             );
           })
